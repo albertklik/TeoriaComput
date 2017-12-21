@@ -51,7 +51,7 @@ public class Validacao {
     }
 
 
-    public Boolean VerificarNome(String nome)
+    public boolean VerificarNome(String nome)
     {
 
         return (nome.matches(exp));

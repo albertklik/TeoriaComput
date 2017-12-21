@@ -1,0 +1,77 @@
+Nome
+endereço
+cpf
+RG
+Data de Nascimento
+E-mail
+Altura
+Peso
+
+
+
+
+
+
+public Boolean VerificarNome(String nome)
+{
+	nome.matches("\D*");
+	return (nome);
+}
+
+
+public boolean VerificarEndereco(String endereco)
+{
+	endereco.matches(".*");
+	return (endereco);
+
+}
+
+
+public boolean VerificarCpf(String CPF)
+{
+	CPF.matches("\d{11}");
+	return(CPF);
+}
+
+
+public boolean VerificarRg(String RG)
+{
+	RG.matches("\d{10}");
+	return(RG);
+}
+
+
+public boolean VerificarData(String Data)
+{
+	Data.matches("\d{2}/\d{2}/\d{4})
+	return(Data);
+}
+
+
+public boolean VerificarEmail(String Email)
+{
+	Email.matches("\d* @ \d*");
+	return(Email);
+}
+
+
+public boolean VerificarAltura(String Altura)
+{
+	Altura.matches("\D{3}");
+	return(Altura);
+} 
+
+public boolean VerificarPeso(String Peso)
+{
+	Peso.matches("\D*");
+	return(Peso);
+}
+
+
+
+
+
+
+
+
+	

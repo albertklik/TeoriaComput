@@ -10,4 +10,12 @@ public class CadastroMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_main);
     }
+
+
+
+    public void validate () {
+        Validacao validacao = new Validacao();
+        validacao.setExp(1);
+        
+    }
 }
